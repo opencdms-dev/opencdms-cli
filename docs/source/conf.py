@@ -96,23 +96,23 @@ html_theme_options = {
     # "navigation_depth": 3,
     # "show_prev_next": True,
     "navbar_align": "content",
-    "github_url": "https://github.com/SciTools/iris",
-    "twitter_url": "https://twitter.com/scitools_iris",
+    "github_url": "https://github.com/SciTools/opencdms",
+    "twitter_url": "https://twitter.com/scitools_opencdms",
     # icons available: https://fontawesome.com/v5.15/icons?d=gallery&m=free
     "icon_links": [
         {
             "name": "GitHub Discussions",
-            "url": "https://github.com/SciTools/iris/discussions",
+            "url": "https://github.com/SciTools/opencdms/discussions",
             "icon": "far fa-comments",
         },
         {
             "name": "PyPI",
-            "url": "https://pypi.org/project/scitools-iris/",
+            "url": "https://pypi.org/project/scitools-opencdms/",
             "icon": "fas fa-box",
         },
         {
             "name": "Conda",
-            "url": "https://anaconda.org/conda-forge/iris",
+            "url": "https://anaconda.org/conda-forge/opencdms",
             "icon": "fas fa-boxes",
         },
     ],
@@ -122,7 +122,7 @@ html_theme_options = {
 
 html_context = {
     # pydata_theme
-    "github_repo": "iris",
+    "github_repo": "opencdms",
     "github_user": "scitools",
     "github_version": "main",
     "doc_path": "docs/src",

@@ -3,18 +3,30 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-pyopencdms documentation
-========================
+Home
+====
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: User Guide
+   :maxdepth: 1
+   :name: userguide_index
+   :hidden:
+
+   user/index
 
 
+.. toctree::
+   :caption: Developers Guide
+   :maxdepth: 1
+   :name: developers_index
+   :hidden:
 
-Indices and tables
-==================
+   developer/index
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :caption: Administrator Guide
+   :maxdepth: 1
+   :name: administrators_index
+   :hidden:
+
+   administrator/index
