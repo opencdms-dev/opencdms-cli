@@ -77,8 +77,9 @@ spelling_ignore_python_builtins = True
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ['_static']
-html_logo = "_static/opencdms.svg"
+# html_logo = "_static/opencdms.svg"
 html_favicon = "_static/opencdms.svg"
+
 
 html_sidebars = {
     "**": [
@@ -91,6 +92,10 @@ html_sidebars = {
 
 # See https://pydata-sphinx-theme.readthedocs.io/en/latest/user_guide/configuring.html
 html_theme_options = {
+    "logo": {
+      "image_light": "opencdms.svg",
+      "image_dark": "opencdms_dark.svg",
+   },
     "footer_items": ["copyright", "sphinx-version", "custom_footer"],
     # "collapse_navigation": True,
     # "navigation_depth": 3,
