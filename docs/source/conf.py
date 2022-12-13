@@ -38,9 +38,9 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
-    # "sphinx_copybutton",
+    "sphinx_copybutton",
     "sphinx.ext.napoleon",
-    # "sphinx_panels"
+    "sphinx_panels"
 ]
 
 templates_path = ['_templates']
