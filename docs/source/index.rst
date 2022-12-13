@@ -18,7 +18,7 @@ Home
     Learn how to use OpenCDMS, including loading, navigating, saving,
     plotting and more.
     +++
-    .. link-button:: user_guide_index
+    .. link-button:: user/index
         :type: ref
         :text: User Guide
         :classes: btn-outline-info btn-block
@@ -28,7 +28,7 @@ Home
 
     As a developer you can contribute to OpenCDMS.
     +++
-    .. link-button:: userguide_index
+    .. link-button:: developer/index
         :type: ref
         :text: Developers Guide
         :classes: btn-outline-info btn-block
@@ -39,7 +39,7 @@ Home
     create plots.
 
     +++
-    .. link-button:: getting_started
+    .. link-button:: administrator/index
         :type: ref
         :text: Administrator Guide
         :classes: btn-outline-info btn-block
